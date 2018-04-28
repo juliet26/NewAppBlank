@@ -22,3 +22,11 @@ angular.module('starter', ['ionic'])
     }
   });
 })
+.config(function($stateProvider){
+	$stateProvider
+	.state('new', {
+		url:'',
+		templateUrl:'new/new.html',
+		controller:'newCtrl'
+	});
+});
